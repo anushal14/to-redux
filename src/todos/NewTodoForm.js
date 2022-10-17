@@ -11,7 +11,7 @@ const NewTodoForm = () => {
                 type='text'
                 value={inputValue}
                 onChange={(e) => { setInputValue(e.target.value) }}
-                placeholder='Tpye your new todo here' />
+                placeholder='Type your new todo here' />
             <button className='new-todo-button'>Create Todo</button>
         </div>
     )
